@@ -2,13 +2,13 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBulKkMk5z2afRmMb3o0lNVtXiwO0C9lEQ",
-    authDomain: "tribute-backend.firebaseapp.com",
-    databaseURL: "https://tribute-backend.firebaseio.com",
-    projectId: "tribute-backend",
-    storageBucket: "tribute-backend.appspot.com",
-    messagingSenderId: "546733707798",
-    appId: "1:546733707798:web:dd5a037cdc6e14a2"
+  apiKey: "AIzaSyB9ZRm7nXLnEEr2DNj8zFS1MytHHlgA6NQ",
+  authDomain: "practice-f7ca6.firebaseapp.com",
+  databaseURL: "https://practice-f7ca6.firebaseio.com",
+  projectId: "practice-f7ca6",
+  storageBucket: "practice-f7ca6.appspot.com",
+  messagingSenderId: "1073048712791",
+  appId: "1:1073048712791:web:bda696436e8e0cff"
   };
 
   firebase.initializeApp(firebaseConfig);
