@@ -1,14 +1,15 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+require('dotenv').config()
 
 var firebaseConfig = {
-  apiKey: "AIzaSyB9ZRm7nXLnEEr2DNj8zFS1MytHHlgA6NQ",
-  authDomain: "practice-f7ca6.firebaseapp.com",
-  databaseURL: "https://practice-f7ca6.firebaseio.com",
+  apiKey: process.env.APIKEY,
+  authDomain: process.env.AUTHDOMAIN,
+  databaseURL: process.env.DATABASEURL,
   projectId: "practice-f7ca6",
-  storageBucket: "practice-f7ca6.appspot.com",
-  messagingSenderId: "1073048712791",
-  appId: "1:1073048712791:web:bda696436e8e0cff"
+  storageBucket: process.env.STORAGEBUCKET,
+  messagingSenderId: process.env.MESSAGINGSENDERID,
+  appId: process.env.APPID
   };
 
   firebase.initializeApp(firebaseConfig);

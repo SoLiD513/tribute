@@ -34,7 +34,7 @@ const Nav = () => {
             </ul>
         </div>
         <div id='menu'>
-            <a href='#'>MENU</a>
+            <a href='#menu'>MENU</a>
         </div>
     </div>
 )}
